@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>З Днем народження, Dev!</title>
+  <style>
+    body {
+      background-color: #0f111a;
+      color: #00ffcc;
+      font-family: "Courier New", monospace;
+      padding: 40px;
+    }
+    .card {
+      background-color: #1e1e2f;
+      border: 2px solid #00ffcc;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 0 20px #00ffcc33;
+    }
+    h1 {
+      color: #00ffcc;
+      font-size: 28px;
+      text-align: center;
+    }
+    pre {
+      background-color: #0a0a14;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎉 З Днем Народження, {touppercase(boba!)} 🎉</h1>
+    <pre>
+const birthdayWishes = {
+  to: "Найкрутіший програміст",
+  message: `
+    🎂 Бажаю:
+    - 💾 Здоров'я як сервер 24/7
+    - 🧠 Креативу як у ChatGPT
+    - 🛠️ Менше багів, більше фіч
+    - 🚀 Кар'єрного росту в логарифмічному темпі
+    - 💰 ЗП, яка завжди &gt;= expectations
+
+    І нехай усе компілюється з першого разу!
+  `,
+  from: "Твій фреймворк підтримки ❤️"
+};
+
+console.log(birthdayWishes.message);
+    </pre>
+    <div class="footer">🖥️ Keep coding & keep shining!</div>
+  </div>
+</body>
+</html>
